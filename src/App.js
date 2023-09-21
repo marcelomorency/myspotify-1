@@ -1,5 +1,4 @@
 import './App.css';
-import Cards from './componentes/Cards.js';
 import Header from './componentes/Header.js';
 import Main from './componentes/Main.js';
 import Footer from './componentes/Footer.js';

@@ -1,3 +1,7 @@
+import Cards from "./Cards";
+
+
+
 export default function Main(){
     return(
       <main>
@@ -6,7 +10,11 @@ export default function Main(){
           <p>Explore nossa vasta coleção de músicas e crie suas próprias playlists.</p>
           <a href="#" className="cta-button">Comece a ouvir</a>
         </section>
+        <Cards/>
       </main>
+      
+
+
 
     );
 

@@ -2,7 +2,6 @@
   background-color: black;
   color: #f1f1f1;
   display: flex;
-  margin-bottom: 10px;
   justify-content: space-around;
 }
 
@@ -99,6 +98,7 @@ main {
   text-decoration: none;
   color: #333;
   transition: transform 0.2s ease-in-out;
+  margin-bottom: 30px;
 }
 
 .music-card:hover {
@@ -123,8 +123,8 @@ main {
   font-size: 14px;
 }
 .play-button {
-  background-color: #1DB954;
-  color: #FFD700;
+  background-color: greenyellow;
+  color: black;
   border: none;
   border-radius: 50%;
   width: 50px;
@@ -140,15 +140,14 @@ main {
 }
 
 .play-button:hover {
-  background-color: #FFD700;
-  color: #1DB954; 
+  background-color: black;
+  color: greenyellow; 
 }
 
 
 
 
 footer {
-  margin-top: 20px;
   padding: 30px;
   background-color: black;
   font-size: 12px;

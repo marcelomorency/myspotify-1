@@ -1,3 +1,6 @@
+import { faPlay } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const cardMusic = [
     {
         titleMusic: "Ah Teu",
@@ -31,7 +34,7 @@ export default function Cards() {
                     <h3>{card.titleMusic}</h3>
                     <p>{card.name}</p>
                     <div className="play-button">
-                        <i className="fas fa-play"></i>
+                        <FontAwesomeIcon icon={faPlay} />
                     </div>
                 </a>
             ))}

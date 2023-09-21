@@ -41,6 +41,7 @@ function Faq () {
           <ItemFaq faq={faq} index={i} toggleFAQ={toggleFAQ} />
         ))}
       </div>
+
     </div>
   );
 }
