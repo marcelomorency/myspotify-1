@@ -1,13 +1,159 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.Header-main {
+  background-color: black;
+  color: #f1f1f1;
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-around;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navBar {
+  color: #fff;
+ 
+}
+
+.ContainerLinks {
+padding-left: 890px;
+  
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.UlAll {
+  list-style: none;
+  justify-content: space-around;
+  display: flex; 
+  color: #f1f1f1;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+  border-radius: 20px;
+ 
+}
+
+nav a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: greenyellow;
+}
+
+.hero {
+  padding: 100px 0;
+  color: #f1f1f1;
+  margin-bottom: 160px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  color: #f1f1f1;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  display: inline-block;
+  color: greenyellow;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+main {
+  background-image: url(../src/assets/fundo.svg);
+}
+
+.music-card {
+  display: inline-block; /* Define um bloco sólido, mas outros elementos podem ser posicionados ao lado dele */
+  width: calc(20% - 10px);
+  margin: 0 5px;
+  vertical-align: top;
+  background: linear-gradient(to bottom, black, greenyellow);
+  border-radius: 6px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.2s ease-in-out;
+}
+
+.music-card:hover {
+  transform: translateY(-5px);
+}
+
+.music-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px 6px 0 0;
+}
+
+.music-card h3 {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.music-card p {
+  margin: 0;
+  color: #888;
+  font-size: 14px;
+}
+.play-button {
+  background-color: #1DB954;
+  color: #FFD700;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.play-button:hover {
+  background-color: #FFD700;
+  color: #1DB954; 
+}
+
+
+
+
+footer {
+  margin-top: 20px;
+  padding: 30px;
+  background-color: black;
+  font-size: 12px;
+  color: #f1f1f1;
+  letter-spacing: 5px;
+  text-align: center;
+  bottom: 0;
 }
