@@ -13,14 +13,14 @@ export default function Header() {
             <div className="ContainerLinks"> 
                 <ul className="UlAll">
                 <li className="liHome">
-                    <a className="HomePage" aria-current="page" href="#">Home</a>
+                    <Link to="/" className="HomePage">Home</Link>
                 </li>
                 <li className="liFaq">
                     <Link to="/faq" className="FaqPage">FAQ</Link>
                 </li>
                 <li>|</li>
                 <li className="liCadastro">
-                    <a className="Cadastro" href="#">Cadastrar-se</a>
+                    <Link to="/users/signup" className="Cadastro">Cadastrar-se</Link>
                 </li>
                 </ul>
             </div>
